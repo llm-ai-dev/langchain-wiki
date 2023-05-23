@@ -1,0 +1,49 @@
+.app {
+    margin: 10px 30px !important;
+    width: unset !important;
+    padding: 0 !important;
+}
+
+.tip-box {
+    height: calc(100vh - 200px)
+}
+
+.message-box {
+    height: calc(100vh - 200px)
+}
+
+footer {
+    display: none !important;
+}
+
+.title {
+    display: none !important;
+}
+.search-input textarea {
+    line-height: 20px;
+    font-size: 14px;
+}
+
+.docs .label {
+    display: none !important;
+}
+.logo img {
+    width: 100px;
+    height: 45px;
+}
+
+@media (max-width: 767px) {
+    .logo {
+        display: none !important;
+    }
+    
+    .title {
+        display: block !important;
+        text-align: center;
+        margin-top: 30px;
+    }
+}
+
+.generating {
+    border: none !important;
+}

@@ -1,0 +1,7 @@
+langchain==0.0.166
+openai
+pypdf
+faiss-cpu
+streamlit
+streamlit-chat
+sentence_transformers
