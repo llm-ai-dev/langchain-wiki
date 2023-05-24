@@ -50,6 +50,8 @@ export https_proxy=填写您的代理地址 http_proxy=填写您的代理地址
 cd ./app
 python ./main.py
 ```
+初始用户名和密码：admin, wikidb@123.com
+
 注意：如果您不想公开，可以自行修改`main.py`，把demo.launch中share修改为False
 ## 效果演示
 视频生成GIF效果和样式有点失真，后续会上传到b站供大家观看
